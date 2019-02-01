@@ -1,6 +1,5 @@
 ---
-
-- hosts: Production
+- hosts: all
   gather_facts: false
   tasks:
-- ping:
+    - ping:
